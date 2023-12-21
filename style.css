@@ -118,50 +118,7 @@
     color: #252525;
   }
   
-  .line1, .line2, .line3 {
-    position: absolute;
-    z-index: -1;
-  }
-  
-  .line1 {
-    width: 152px;
-    top: 454px;
-    left: 800px;
-  }
-  
-  .line2 {
-    width: 95px;
-    top: 498px;
-    left: 937px;
-  }
-  
-  .line3 {
-    width: 95px;
-    top: 521px;
-    left: 787px;
-  }
-  .playarea {
-    position: absolute;
-    top: -70px;
-    left: -90px;
-  }
-  
-  .rock_circle, .scissors_circle, .paper_circle {
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    top: 400px;
-    cursor: pointer;
-  }
-  
-  .rock_circle {
-    left: 690px;
-  }
-  
-  .scissors_circle {
-    left: 933px;
-  }
-  
+ 
   .paper_circle {
     top: 600px;
     left: 820px;
@@ -234,6 +191,50 @@
     color: #FFFFFF;
     
   }
+ .line1, .line2, .line3 {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .line1 {
+    width: 152px;
+    top: 454px;
+    left: 800px;
+  }
+  
+  .line2 {
+    width: 95px;
+    top: 498px;
+    left: 937px;
+  }
+  
+  .line3 {
+    width: 95px;
+    top: 521px;
+    left: 787px;
+  }
+  .playarea {
+    position: absolute;
+    top: -70px;
+    left: -90px;
+  }
+  
+  .rock_circle, .scissors_circle, .paper_circle {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 400px;
+    cursor: pointer;
+  }
+  
+  .rock_circle {
+    left: 690px;
+  }
+  
+  .scissors_circle {
+    left: 933px;
+  }
+  
   .title-against{
     position: absolute;
     font-family: Roboto;
